@@ -24,7 +24,7 @@ def get_hours(days):
 def get_hours_for_day(day):
     while True:
         try:
-            hours = float(input(f'Enter hours worked for {day}: '))
+            hours = float(input(f'Enter hours worked for {day} '))
             if hours < 0:
                 raise ValueError('Hours must be 0 or more')
             if hours > 24:
